@@ -1,0 +1,7 @@
+docs
+.idea
+**/*.pyc
+**/*/db.sqlite3
+dist
+www/media
+www/assets
