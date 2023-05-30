@@ -8,6 +8,7 @@ __all__ = ['PersonForm']
 
 class PersonForm(forms.ModelForm):
     country = forms.CharField(widget=CountrySelectWidget())
+
     class Meta:
         model = Person
         fields = '__all__'

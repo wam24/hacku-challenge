@@ -16,7 +16,7 @@ ENV VIRTUAL_ENV=/env \
     DJANGODIR=/www \
     DJANGO_WSGI_MODULE=hacku.wsgi \
     NUM_WORKERS=2 \
-    DJANGO_SETTINGS_MODULE=hacku.settings.local \
+    DJANGO_SETTINGS_MODULE=hacku.settings.production \
     DJANGO_SECRET_KEY=xnZADbBeju69lkaXfAP2m58Cui2Wvsc3Em4TQa56uSRCuZtqgVV079DVcrDFMARu \
     RUNDIR=/www
 
